@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #904CE4;
+    background: #7d0f98;
+   
 }
 .container{
     width: 450px;
@@ -20,13 +21,14 @@ body{
     padding: 25px;
 }
 .container span{ 
-    color: #303030;
-    font-size: 24px;
-    font-weight: 600;
+    color: #57115c;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
 }
 .container p{
     color: #303030;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -56,8 +58,13 @@ body{
     outline: none;
     border-radius: 5px;
     font-weight: 500;
-    background-color: #904CE4;
+    background: #500781;
     color: #ffff;
+}
+.container .error{
+    font-size: 15px;
+    color: crimson;
+    margin-top: 10px;
 }
 .container .content{
     display: flex;
@@ -78,6 +85,6 @@ body{
     color: #904CE4;
 }
 .container .content .year h5,.month h5,.day h5{
-    font-size: 12px;
+    font-size: 15px;
     color: #303030;
 }
